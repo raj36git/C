@@ -1,25 +1,34 @@
-//1
+// 1
 // A B
-//1 2 3
+// 1 2 3
 // A B C D
-//1 2 3 4 5
+// 1 2 3 4 5
 
 #include <stdio.h>
 int main()
 {
 
     int row;
+    char ch = 'A';
     printf("Enter row no: ");
     scanf("%d", &row);
 
-    for (int i = 65; i <= row; i++)
+   for (int i = 1; i <= row; i++)
+   {
+    for (int j = 1; i <= i; i++)
     {
-        for (int j = 65; j <= i; j++)
+        if (i%2!=0)
         {
-            printf("%c ", j);
+          printf("%d",i);
+          i+=2;
+        } else{
+            printf("%c",ch);
+            ch++;
         }
-        printf("\n");
+        
     }
-
+    printf(" \n");
+    
+   }
     return 0;
 }
