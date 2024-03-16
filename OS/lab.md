@@ -1,0 +1,10 @@
+(1,"shashank","Janakpur", 20,"9.98"),
+(2,"saurav","KTM", 21,"9.8"),
+(3,"razz","BBSR", 22"8"),
+(4,"raj","Janakpur", 23,"7.8"),
+(5,"raju","BBSR", 24,"6.8"),
+(6,"firoj","KTM", 25,"9.95"),
+(7,"krishna","MUMBAI", 25,"8.85"),
+(8,"ram","MUMBAI", 22,"8.9"),
+(9,"sita","Delhi", 21,"7.78"),
+(10,"balo","MUMBAI", 22,"6.8");
